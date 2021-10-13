@@ -396,7 +396,9 @@ def pause_game():
 
         events = pygame.event.get()
         for event in events:
-            if event.type == pygame.USEREVENT:
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                return False
+            elif event.type == pygame.USEREVENT:
                 if event.user_type == pygame_gui.UI_BUTTON_PRESSED:
                     if event.ui_element == resume_button:
                         return False
