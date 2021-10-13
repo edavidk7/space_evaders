@@ -1,0 +1,44 @@
+{
+     "button":
+     {
+         "colours":
+         {
+             "normal_bg": "#eb6bcd",
+             "hovered_bg": "#07ebc5",
+             "disabled_bg": "#07ebc5",
+             "selected_bg": "#07ebc5",
+             "active_bg": "#07ebc5",
+             "normal_text": "#000000",
+             "hovered_text": "#000000",
+             "selected_text": "#000000",
+             "disabled_text": "#000000",
+             "active_text": "#000000",
+             "normal_border": "#FFFFFF",
+             "hovered_border": "#FFFFFF",
+             "disabled_border": "#FFFFFF",
+             "selected_border": "#FFFFFF",
+             "active_border": "#FFFFFF"
+
+         },
+         "font": {
+             "name": "regular",
+             "size": "10",
+             "regular_path": "./assets/super-legend-boy.otf"
+         },
+         "misc":
+         {
+             "shape": "rounded_rectangle",
+             "border_width": "5",
+             "shadow_width": "1",
+             "text_horiz_alignment": "center",
+             "text_vert_alignment": "center",
+             "text_horiz_alignment_padding": "10",
+             "text_vert_alignment_padding": "5",
+             "state_transitions":
+             {
+                 "normal_hovered": "0.2",
+                 "hovered_normal": "0.5"
+             }
+         }
+     }
+ }
